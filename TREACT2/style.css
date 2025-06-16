@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: #243e63;
+    line-height: 1.5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    }
+
+    .logo_svg {
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+   }
+
+   .logo_name {
+    font-weight: 900;
+    font-size: 24px;
+   }
+
+   .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+   }
+
+   .nav_btn {
+    text-decoration: none;
+    margin: 0 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #243e63;
+   }
+
+   .nav_btn:hoover {
+    cursor: pointer;
+   }
+
+   .nav_login {
+    margin-left: 48px;
+   }
+
+   .btn--special {
+    background-color: #6415ff;
+    color: #f7fafc;
+    padding: 12px 32px;
+    border-radius: 32px;
+    transition: all 0.3s ease;
+   }
+
+
+.btn--special:hoover {
+    background-color: #4a00dc;
+    cursor: pointer;
+}
+
+.main {
+   max-width: 1200px; 
+   margin: 0 auto;
+   padding: 32px;
+}
+
+.section--main {
+    display: flex;
+}
+
+.main_svg--holder {
+    width: 60%;
+}
+
+.main_svg {
+    width: 100%;
+}
+
+.main_container {
+    width: 40%;
+}
+
+
+.main_heading {
+   font-size: 40px; 
+   color: #1a202c; 
+}
+
+.main_heading span {
+    color: #6415ff;
+}
+
+.main_paragraph,
+.quality--work_p {
+    font-size: 18px;
+    margin: 32px  0;
+}
+
+.main_form {
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+    position: relative;
+}
+
+.main_input {
+    padding: 22px 0 22px 32px;
+    border-radius: 80px;
+    border: 2px solid #e5e7eb;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.main_btn {
+    position: absolute;
+    right: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px  32px;
+}
+
+.main_customers {
+    margin-top: 80px;
+}
+
+.main_customers--p {
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #a0aec0;
+   font-size: 12px;
+   margin: 0;
+}
+
+.main_customers--img {
+    opacity: 0.5;
+    width: calc(100% - 60px);
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+/*
+FEATURES
+*/
+
+.features_head,
+.pricing_head {
+  font-size: 16px;
+  color: #6415ff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.features_heading,
+.pricing_heading {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.features_heading,
+.pricing_heading span {
+    color: #6415ff;
+}
+
+.features_p, 
+.pricing_p {
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    color: 1#7c8ba1;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.features_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 80px;
+}
+
+
+.features_feature {
+    display: flex;
+    padding: 32px 24px;
+}
+
+.features_icon--box {
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    height: 24px;
+    border-radius: 100px;
+}
+
+.features_description {
+    margin-top: 8px;
+}
+
+.features_description--title {
+    margin: 0;
+    color: black;
+    font-size: 24px;
+}
+
+.features_description {
+    color: #7c8ba1;
+    margin: 0;
+    margin-top: 16px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+.section--features,
+.section--pricing,
+.section_quality--work,
+.section--values {
+    padding: 96px 0;
+}
+
+/*
+QUALITY WORK
+*/
+
+.section_quality--work {
+    display: flex;
+    
+   }
+
+.quality--work_container {
+    width: 50%;
+  
+}
+
+.quality--work_head {
+  font-size: 16px;
+  color: #6415ff;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 16px;
+  margin-top: 80px;
+  letter-spacing: 1px;
+}
+
+
+.quality--work_heading {
+   font-size: 40px; 
+   color: #1a202c; 
+}
+
+
+.quality--work_heading span {
+    color: #6415ff;
+}
+
+ 
+
+.quality--work_svg--holder {
+    width: 60%;
+    
+}
+
+.quality--work_svg {
+    width: 150%;
+}
+
+
+
+
+
+
+
+/*
+VALUES
+*/
+
+.values_head {
+  font-size: 16px;
+  color: #6415ff;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 16px;
+  margin-top: 80px;
+  letter-spacing: 1px;
+}
+
+.values_heading {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.values_heading span {
+    color: #6415ff;
+}
+
+.values_icon--box {
+    width: 100%;
+    display: flex;
+}
+
+/*
+
+PRICING
+
+*/
+
+.pricing__plans {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 48px;
+}
+
+.pricing__plan {
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+   border-radius: 8px;
+   position: relative;
+   overflow: hidden;
+}
+
+.pricing__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pricing__price {
+    font-size: 48px;
+    margin: 16px 0;
+    font-weight: 700;
+    text-align: center;
+    color: #1a202c;
+}
+
+.pricing__time {
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 0;
+   margin-bottom: 32px;
+   text-align: center;
+   color: #a0aec0;
+}
+
+.pricing__box {
+    border-top: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.pricing__box--title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.pricing__list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+ }
+
+ .pricing__feature {
+    font-weight: 500;
+    margin-top: 20px;
+    color: #718096;
+ }
+
+ .pricing__btn {
+    border: none;
+    border-radius: 100px;
+    padding: 16px 0;
+    margin: 32px auto;
+    width: 60%;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f7fafc;
+    background: linear-gradient(135deg, #38b2ac, #81e6d9);  
+ }
+
+ .pricing__plan::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #38b2ac, #81e6d9); 
+ }
