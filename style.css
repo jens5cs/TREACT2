@@ -311,6 +311,10 @@ VALUES
     color: #6415ff;
 }
 
+.values_icon-icon {
+    width: 20%;
+}
+
 .values_box {
     display: flex;
 }
