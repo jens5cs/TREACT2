@@ -280,6 +280,21 @@ QUALITY WORK
     width: 150%;
 }
 
+/*
+
+STEPS
+
+*/
+
+.section_steps{
+    display: flex;
+    
+   }
+
+.steps_container {
+    width: 50%;
+  
+}
 
 
 
