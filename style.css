@@ -292,10 +292,35 @@ STEPS
    }
 
 .steps_container {
-    width: 50%;
-  
+    
+  }
+
+
+  .steps_row {
+    display: flex;
+  }
+
+  .steps_head span {
+    color: #6415ff
+  }
+
+  .steps_heading span {
+    color: #6415ff
+  }
+
+  .steps_heading {
+    font-size: 38px;
+    font-weight: 900;
+  }
+
+  .steps_list {
+    display: flex;
 }
 
+.steps_title {
+    font-size: 20px;
+    margin: 4px;
+}
 
 
 
