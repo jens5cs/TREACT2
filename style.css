@@ -294,14 +294,20 @@ STEPS
 .steps_container {
     
   }
+  .steps {
+    width: 50%;
+    line-height: 2;
+  }
 
 
   .steps_row {
     display: flex;
   }
 
-  .steps_svg {
-
+  .steps_img {
+    width: 70%;
+    display: flex;
+    align-items: center;
     
   }
 
@@ -346,6 +352,11 @@ STEPS
     font-size: 36px;
     color: rgba(64, 62, 62, 0.254);
     font-weight: bold;
+    margin-top: 8px;
+}
+
+.steps_para {
+    margin-top: 4px;
 }
 
 
@@ -389,6 +400,10 @@ VALUES
     display: flex;
     flex-direction: column;
     font-size: 12px;
+}
+
+.value_wrapper {
+    display: flex;
 }
 
 .values_icons-icon {
