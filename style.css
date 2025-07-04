@@ -300,6 +300,11 @@ STEPS
     display: flex;
   }
 
+  .steps_svg {
+
+    
+  }
+
   .steps_head span {
     color: #6415ff
   }
@@ -320,6 +325,7 @@ STEPS
 
 .steps_title {
     font-size: 20px;
+    font-weight: bold;
     margin: 4px;
 }
 
@@ -334,6 +340,12 @@ STEPS
     display: flex;
     align-items: flex-start;
     margin-top: 32px;
+}
+
+.step_number {
+    font-size: 36px;
+    color: rgba(64, 62, 62, 0.254);
+    font-weight: bold;
 }
 
 
