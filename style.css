@@ -402,8 +402,20 @@ VALUES
     font-size: 12px;
 }
 
-.value_wrapper {
+.values_list {
     display: flex;
+}
+
+.value_svg-affordable {
+ font-size: 28px;
+  width: 20px;
+  height: 20px;
+  background-color: green; 
+  border-radius: 50%; 
+}
+
+.value_svg-professionalism {
+    color: rgba(155, 44, 44, 1);
 }
 
 .values_icons-icon {
