@@ -315,6 +315,7 @@ STEPS
 
   .steps_list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .steps_title {
