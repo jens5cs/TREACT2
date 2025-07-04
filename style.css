@@ -329,6 +329,12 @@ STEPS
     max-width: 320px;
 }
 
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
 
 
 
