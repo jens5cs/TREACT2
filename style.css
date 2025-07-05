@@ -352,7 +352,7 @@ STEPS
     font-size: 36px;
     color: rgba(64, 62, 62, 0.254);
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 2px;
 }
 
 .steps_para {
@@ -549,6 +549,14 @@ PRICING
     margin-top: 32px;
     font-weight: 700;
     color: #1a202c;
+}
+
+.plan_stripe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
 }
 
 .pricing__list {
