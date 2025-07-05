@@ -408,18 +408,36 @@ VALUES
 
 .value_svg-affordable {
  font-size: 28px;
-  width: 20px;
-  height: 20px;
-  background-color: green; 
+  width: 36px;
+  height: 36px;
+  background-color: rgba(0, 128, 0, 0.557); 
   border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .value_svg-professionalism {
-    color: rgba(155, 44, 44, 1);
+    font-size: 28px;
+    weight: 36px;
+    height: 36px;
+    background-color: rgba(155, 44, 44, 0.557);
+    border-radius: 50%;
 }
 
 .values_icons-icon {
     width: 20px;
+}
+
+.values_subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.values_subtitle-para {
+    font-size: 16px;
+    margin-top: 48px;
 }
 
 .values_box {
