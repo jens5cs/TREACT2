@@ -552,7 +552,7 @@ PRICING
 }
 
 .plan_stripe-green {
-    color: 
+    background-color: green;
     position: absolute;
     top: 0;
     left: 0;
@@ -561,7 +561,7 @@ PRICING
 }
 
 .plan_stripe-blue {
-    color: blue;
+    background-color: blue;
     position: absolute;
     top: 0;
     left: 0;
