@@ -551,7 +551,7 @@ PRICING
     color: #1a202c;
 }
 
-.plan_stripe-green::after {
+.plan_stripe-green {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     position: absolute;
     top: 0;
@@ -560,7 +560,7 @@ PRICING
     height: 8px;
 }
 
-.plan_stripe-blue::after {
+.plan_stripe-blue {
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     position: absolute;
     top: 0;
@@ -569,7 +569,7 @@ PRICING
     height: 8px;
 }
 
-.plan_stripe-red::after {
+.plan_stripe-red {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     position: absolute;
     top: 0;
@@ -612,5 +612,9 @@ PRICING
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, #38b2ac, #81e6d9); 
+    
+ }
+
+ .plan:nth-child(2) {
+        background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
  }
