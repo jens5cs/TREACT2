@@ -407,22 +407,25 @@ VALUES
 }
 
 .value_svg-affordable {
- font-size: 28px;
-  width: 36px;
-  height: 36px;
-  background-color: rgba(0, 128, 0, 0.557); 
-  border-radius: 50%; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px 0 0;
+    width: 36px;
+    height: 36px;
+    background-color: #9ae6b4;
 }
 
 .value_svg-professionalism {
-    font-size: 28px;
-    weight: 36px;
-    height: 36px;
-    background-color: rgba(155, 44, 44, 0.557);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px 0 0;
+    width: 36px;
+    height: 36px;
+    background-color: #feb2b2;
 }
 
 .values_icons-icon {
@@ -448,6 +451,45 @@ img {
     width: 100%;
 }
 
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+
+.value__tilte {
+    display: flex;
+    align-items: center;
+}
+
+.value {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+
+.value__tilte {
+    display: flex;
+    align-items: center;
+}
+
+.value {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.btn{
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
 
 
 /*
