@@ -615,7 +615,19 @@ PRICING
     
  }
 
- .pricing__plan:nth-child(2), .pricing__title:nth-child(2), .pricing__price:nth-child(2), .pricing__time:nth-child(2), .pricing__box--title:nth-child(2), .pricing__list:nth-child(2),  .pricing__feature:nth-child(2), .pricing__box--title:nth-child(2), .pricing__btn:nth-child(2) {
-        background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+ .pricing__plan:nth-of-type(2) {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+ }
+
+
+ .pricing__plan:nth-of-type(2), .pricing__title:nth-of-type(2), .pricing__price:nth-of-type(2), .pricing__time:nth-of-type(2), .pricing__box--title:nth-of-type(2), .pricing__list:nth-of-type(2),  .pricing__feature:nth-of-type(2), .pricing__box--title:nth-of-type(2), .pricing__btn:nth-of-type(2) {
+        
         color: #f7fafc;
  }
+
+ /*
+
+ TESTIMONIALS
+
+ */
+
