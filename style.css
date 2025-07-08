@@ -713,8 +713,10 @@ PRICING
  }
 
  .start_row {
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
  .start_buttons {
@@ -723,27 +725,59 @@ PRICING
     font-size: 16px;
     color: #f7fafc;
     padding: 20px 40px;
- }
+}
 
- .start_button btn:nth-of-type(1) {
-    border-radius: 100px;
-    color: #f56565;
+.start_button:nth-of-type(1) {
+    border-radius: 500px;
+    background-color: #f50565;
+    color: #f7fafc;
     margin-right: 32px;
-    
+    font-size: 16px;
+    font-weight: 700;
+}
 
- }
+.start_button:nth-of-type(2) {
+    border: 1px solid rgb(160, 174, 192);
+    font-size: 16px;
+    font-weight: 700;
+}
 
  .start_title {
     color: #f7fafc;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.5;
     z-index: 2;
-    margin: 48px 0 0 48px;
     width: 50%;
+    padding-left: 75px;
  }
 
 
+ /*
+
+ FOOTER
+
+ */
+
+ footer {
+    padding: 96px 32px;
+    background-color: rgb(100, 21, 255);
+    margin-bottom: -32px;
+    position: relative;
+    overflow: hidden;
+    
+ }
+
+ .footer_columns {
+    margin_top: -48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .footer_column-title {
+    color: #243e63;
+ }
 
 
 
