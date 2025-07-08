@@ -765,20 +765,43 @@ PRICING
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
+   
     
  }
 
  .footer_columns {
-    margin_top: -48px;
+    margin-top: -48px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+   
  }
 
  .footer_column-title {
-    color: #243e63;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
  }
 
+.footer_column-link {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+
+
+.footer_logo-text {
+    color: white;
+}
+
+.footer_copyright {
+    color: white;
+}
 
 
 
