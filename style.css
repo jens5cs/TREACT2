@@ -803,6 +803,11 @@ PRICING
    
  }
 
+ .footer_logo {
+    display: flex;
+
+ }
+
  .footer_column-title {
     font-weight: 700;
     line-height: 1.5;
@@ -820,7 +825,8 @@ PRICING
 }
 
 .container_footer-bottom {
-  border-radius: 4px solid white;
+    border-top: 1px solid white;
+    margin-top: 60px;
 }
 
 
@@ -832,14 +838,18 @@ PRICING
 .footer_logo-img {
     width: 32px;
     height: 32px;
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 
 
 .footer_logo-text {
-    
-    color: white;
+    margin-top: 85px;
+    font-size: 20px;
+    color: #f7fafc;
+    font-weight: 900;
+    margin-left: 8px;
+    letter-spacing: 0.05em;
    
 }
 
@@ -849,11 +859,26 @@ PRICING
 }
 
 .footer_social-links {
-    color: white;
+    
     margin-top: 75px;
     display: flex;justify-content: space-between;
-    
 }
+
+.social_link {
+    border: 14px solid white;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    color: #243e63;
+    font-size: 20px;
+    margin-left: 16px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+@media
 
 
 
