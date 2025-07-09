@@ -8,25 +8,9 @@ body {
     line-height: 1.5;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 li {
-    diaplay: inline;
-    margin: 0 15px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 10px;
-    transition: background-color 0.3s;
-
+    display: flex;
+    margin: 16px;
 }
 
 a:hover {
@@ -226,14 +210,12 @@ FEATURES
 
 .features_icon--box {
     border: 1px solid #e5e7eb;
-    padding: 20px;
+    padding: 16px;
     height: 24px;
+    width: 24px;
     border-radius: 100px;
 }
 
-.feature_icon {
-
-}
 
 .features_description {
     margin-top: 8px;
@@ -867,12 +849,9 @@ PRICING
 .social_link {
     border: 14px solid white;
     border-radius: 50%;
-    width: 14px;
-    height: 8px;
     background-color: white;
     color: #243e63;
     font-size: 20px;
-   
     padding: 8px;
     display: flex;
     align-items: center;
