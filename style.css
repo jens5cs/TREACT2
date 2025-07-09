@@ -868,11 +868,11 @@ PRICING
     border: 14px solid white;
     border-radius: 50%;
     width: 14px;
-    height: 14px;
+    height: 8px;
     background-color: white;
     color: #243e63;
     font-size: 20px;
-    margin-left: 16px;
+   
     padding: 8px;
     display: flex;
     align-items: center;
