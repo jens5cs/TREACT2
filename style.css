@@ -252,6 +252,7 @@ QUALITY WORK
 
 .section_quality--work {
     display: flex;
+    align-items: center;
     
    }
 
@@ -289,7 +290,7 @@ QUALITY WORK
 }
 
 .quality--work_svg {
-    width: 150%;
+    width: 100%;
 }
 
 /*
@@ -459,8 +460,13 @@ VALUES
     display: flex;
 }
 
+.values_icon--box {
+    width: 50%;
+}
 
-
+.values_value {
+    width: 50%;
+}
 
 .value__img {
     width: 20px;
@@ -500,6 +506,10 @@ VALUES
     font-size: 14px;
     color: #fff;
     font-weight: bold;
+}
+
+.values_icon--box img {
+    width: 100%;
 }
 
 
