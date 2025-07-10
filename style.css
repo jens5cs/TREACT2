@@ -284,7 +284,7 @@ QUALITY WORK
  
 
 .quality--work_svg--holder {
-    width: 60%;
+    width: 50%;
     
 }
 
@@ -400,9 +400,9 @@ VALUES
 
 .values_wrapper {
     width: 50%;
- display: flex;
- flex-wrap: wrap;
- align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .values_row {
@@ -458,6 +458,7 @@ VALUES
 .values_box {
     display: flex;
 }
+
 
 
 
