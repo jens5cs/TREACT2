@@ -900,7 +900,7 @@ MEDIA
 */
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     body {
         font-size: 18px;
     }
@@ -913,7 +913,7 @@ MEDIA
     }
     }
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
         body {
             font-size: 18px;
              }
