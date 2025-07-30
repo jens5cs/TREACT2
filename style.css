@@ -253,13 +253,11 @@ QUALITY WORK
 .section_quality--work {
     display: flex;
     align-items: center;
-   
     
    }
 
 .quality--work_container {
     width: 50%;
-    
   
 }
 
@@ -269,7 +267,6 @@ QUALITY WORK
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 16px;
-  margin-top: 80px;
   letter-spacing: 1px;
 }
 
@@ -288,7 +285,6 @@ QUALITY WORK
 
 .quality--work_svg--holder {
     width: 50%;
- 
     
 }
 
@@ -302,17 +298,16 @@ STEPS
 
 */
 
-.section_steps {
+.section_steps{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    flex-wrap: wrap;
+    
    }
 
 
   .steps {
-    display: flex;
-    flex-direction: column;
     width: 50%;
     line-height: 2;
   }
@@ -320,14 +315,13 @@ STEPS
 
   .steps_row {
     display: flex;
-    align-items: center;
   }
 
   .steps_img {
-    margin-right: 20px;
     width: 50%;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    
   }
 
   .steps_head span {
@@ -376,6 +370,10 @@ STEPS
 
 .steps_para {
     margin-top: 4px;
+}
+
+.steps_svg {
+    width: 100%;
 }
 
 
@@ -470,6 +468,7 @@ VALUES
 
 .values_icon--box {
     width: 50%;
+    display: flex;
 }
 
 .values_value {
@@ -907,9 +906,20 @@ MEDIA
                 width: 90%;
                 margin: 0 auto;
             }
+             .section_steps {
+                flex-direction: column;
+                align-items: center;
+            }
+            .steps_img {
+                width: 100%;
+                margin-right: 0;
+            }
+            .steps {
+                width: 100%;
+            }
     }
 
-    @media (maz-width: 990px) {
+    @media (max-width: 990px) {
         body {
             font-size: 14px;
         }
@@ -919,6 +929,9 @@ MEDIA
         .container {
             width: 100%;
             margin: 0 auto;
+        }
+        .steps_img, .steps {
+            width: 100%;
         }
     }
 
@@ -936,6 +949,21 @@ MEDIA
     }
 
     
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
