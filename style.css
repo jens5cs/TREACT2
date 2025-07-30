@@ -253,11 +253,13 @@ QUALITY WORK
 .section_quality--work {
     display: flex;
     align-items: center;
+   
     
    }
 
 .quality--work_container {
     width: 50%;
+    
   
 }
 
@@ -286,6 +288,7 @@ QUALITY WORK
 
 .quality--work_svg--holder {
     width: 50%;
+ 
     
 }
 
@@ -299,13 +302,17 @@ STEPS
 
 */
 
-.section_steps{
+.section_steps {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
    }
 
 
   .steps {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     line-height: 2;
   }
@@ -313,13 +320,14 @@ STEPS
 
   .steps_row {
     display: flex;
+    align-items: center;
   }
 
   .steps_img {
-    width: 70%;
+    margin-right: 20px;
+    width: 50%;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
   }
 
   .steps_head span {
